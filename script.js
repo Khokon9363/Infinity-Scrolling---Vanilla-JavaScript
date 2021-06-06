@@ -27,11 +27,3 @@ document.addEventListener('scroll', function (){
         postId++
     }, 300);
 })
-
-// document.addEventListener('scroll', async function (){ 
-//     const res = await fetch(`https://jsonplaceholder.typicode.com/comments?postId=${postId}`) 
-//     const result = await res.json() 
-//     for (let i = 0; i < result.length; i++) {
-//         wrapper.innerHTML += `<h1>${result[i].name}</h1>`
-//     }
-// })
